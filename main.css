@@ -1,0 +1,370 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+
+}
+
+.navbar {
+  overflow: hidden;
+  background-color: #333;
+  font-family: Arial, Helvetica, sans-serif;
+    
+}
+
+.navbar a {
+  float: left;
+  font-size: 16px;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  
+}
+
+.dropdown {
+  float: left;
+  overflow: hidden;
+    width:16.6666%;
+}
+.div1 
+ {
+
+    height: 300px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+            width: 100%;
+     padding-top: 67px;
+         font-family: Arial, Helvetica, sans-serif;
+            
+        }
+.p1{
+    background-image: url(
+'googlegeschiedenisachtergrond.jpeg');
+}
+.p2{
+    background-image: url(
+'hoewerktgoogleachtergrond.jpeg');
+}
+.p3{
+     background-image: url(
+'degevarenvangoogleachtergrond.jpg');
+}
+.p4{
+     background-image: url(
+'waaromgoogleachtergrond.jpeg');
+}
+.p5{
+     background-image: url(
+'alternatievengoogle.webp');
+}
+.p6{
+     background-image: url(
+'detoekomstachtergrond.webp');
+}
+.div2{
+    background-image:linear-gradient(rgba(255, 255, 255, 0.0),rgba(51, 51, 51, 1));
+    background-position: bottom;
+    height: 153px;
+   font-family: Arial, Helvetica, sans-serif;
+      
+       
+    }
+    .div3{
+        background-color: #333;
+       
+        text-align: center;
+        padding-top: 100px;
+            color:white;
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 18px;
+            padding-right: 20% ; 
+            padding-left: 20%;
+        font-size: 1em;
+        margin-bottom: -250px;
+   
+
+    }
+.div3 ul{
+         text-align: left;
+    list-style-position: inside;
+    margin-left: 71px;
+}
+.rule {
+  height: 1px;
+  background: white;
+    
+      margin-right: 15%; 
+            margin-left: 15%;
+    margin-bottom: 50px;
+    margin-top: 50px
+}
+.div3 a {
+    color: white;
+}
+.div3 ol {
+      text-align: left;
+    list-style-position: inside;
+    margin-left: 71px;
+    line-height: 23px;
+}
+
+.rule:before, .rule:after {
+  content: '';
+  height: 8px;
+  width: 8px;
+  border-radius: 10px;
+  float: left;
+  background: #333;
+  margin-top: -4.5px;
+  left: 50%;
+  
+  border: 1px solid white;
+}
+.rule:after {
+  float: right;
+}
+.dropdown .dropbtn {
+  font-size: 16px;  
+  border: none;
+  outline: none;
+  color: white;
+  padding: 14px 0px;
+  background-color: inherit;
+  font: inherit;
+  
+ width: 100%;
+}
+    
+.contact {
+    text-align: center;
+    margin-top: 100px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.contact a{
+    text-align: center;
+    margin-top: 100px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: black;
+    
+}
+.navbar a:hover, .dropdown:hover .dropbtn {
+  background-color: #444;
+    transition: all 0.4s;
+}
+.linkjes{
+    margin: -14px;
+   text-align: center;
+    align-content: center;
+    margin-left: 5px;
+}
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  width: 100%;
+  left: 0;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+.h21{
+    margin-top: 100px;
+}
+.linkje{
+    color: white;
+
+}
+.dropdown-content .header {
+  background: #333;
+  padding: 16px ;
+     
+  color: white;
+    margin-bottom: 0px;
+    text-align: left;
+    padding-left: 150px;
+   
+}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+/* Create three equal columns that floats next to each other */
+
+
+.column a:hover {
+  background-color: #ddd;
+    
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+   
+}
+    
+    .row{
+         background-color: #333;
+        color: white;
+        text-align: center;
+        padding: 0px 0px 20px 0px;
+    }
+    @import url(//netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.css);
+}
+@import url(https://fonts.googleapis.com/css?family=Titillium+Web:300);
+.fa-2x {
+font-size: 2em;
+}
+.fa {
+position: relative;
+display: table-cell;
+width: 60px;
+height: 36px;
+text-align: center;
+vertical-align: middle;
+font-size:20px;
+}
+img{
+    width: 60%;
+}
+
+.main-menu:hover,nav.main-menu.expanded {
+width:250px;
+overflow:visible;
+}
+
+.main-menu {
+
+margin-top: 150px;
+position:absolute;
+top:0;
+bottom:0;
+height:25%;
+left:0;
+width:60px;
+overflow:hidden;
+-webkit-transition:width .05s linear;
+transition:width .05s linear;
+-webkit-transform:translateZ(0) scale(1,1);
+z-index:1000;
+}
+
+.main-menu>ul {
+margin:7px 0;
+}
+
+.main-menu li {
+position:relative;
+display:block;
+width:250px;
+   
+}
+
+.main-menu li>a {
+position:relative;
+display:table;
+border-collapse:collapse;
+border-spacing:0;
+color:#999;
+ font-family: Arial, Helvetica, sans-serif;
+font-size: 14px;
+text-decoration:none;
+-webkit-transform:translateZ(0) scale(1,1);
+-webkit-transition:all .4s linear;
+transition:all .4s linear;
+  
+}
+
+.main-menu .nav-icon {
+position:relative;
+display:table-cell;
+width:60px;
+height:36px;
+text-align:center;
+vertical-align:middle;
+font-size:18px;
+}
+
+.main-menu .nav-text  {
+position:relative;
+display:table-cell;
+vertical-align:middle;
+width:190px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.main-menu>ul.logout {
+position:absolute;
+left:0;
+bottom:0;
+}
+.icon1{
+    float:left;
+    padding-left: 20%;
+}
+.icon2{
+    float:right;
+    padding-right: 20%;
+}
+.no-touch .scrollable.hover {
+overflow-y:hidden;
+}
+
+.no-touch .scrollable.hover:hover {
+overflow-y:auto;
+overflow:visible;
+}
+
+a:hover,a:focus {
+text-decoration:none;
+}
+.icontext{
+    margin-left: 5%;
+     margin-right: 5%;
+}
+nav {
+-webkit-user-select:none;
+-moz-user-select:none;
+-ms-user-select:none;
+-o-user-select:none;
+user-select:none;
+}
+    
+nav ul,nav li {
+outline:0;
+margin:0;
+padding:0;
+}
+.main-menu li:hover>a,nav.main-menu li.active>a,.dropdown-menu>li>a:hover,.dropdown-menu>li>a:focus,.dropdown-menu>.active>a,.dropdown-menu>.active>a:hover,.dropdown-menu>.active>a:focus,.no-touch .dashboard-page nav.dashboard-menu ul li:hover a,.dashboard-page nav.dashboard-menu ul li.active a {
+color:#fff;
+background-color:#5fa2db;
+}
+.area {
+float: right;
+
+width: 100%;
+height: 100%;
+}
+@font-face {
+  font-family: 'Titillium Web';
+  font-style: normal;
+  font-weight: 300;
+  src: local('Titillium WebLight'), local('TitilliumWeb-Light'), url(http://themes.googleusercontent.com/static/fonts/titilliumweb/v2/anMUvcNT0H1YN4FII8wpr24bNCNEoFTpS2BTjF6FB5E.woff) format('woff');
+}
+.main-menu{
+    position: sticky;
+    position: sticky;
+  
+ 
+  
+  
+
+}
+    .navbar:hover ~ .main-menu ul{
+        display: none;
+    }
